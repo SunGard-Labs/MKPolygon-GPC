@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13AFB76F189FF40A00159B5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AFB76E189FF40A00159B5C /* Foundation.framework */; };
+		13AFB771189FF40A00159B5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AFB770189FF40A00159B5C /* CoreGraphics.framework */; };
+		13AFB773189FF40A00159B5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AFB772189FF40A00159B5C /* UIKit.framework */; };
+		13AFB779189FF40A00159B5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13AFB777189FF40A00159B5C /* InfoPlist.strings */; };
+		13AFB77B189FF40A00159B5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AFB77A189FF40A00159B5C /* main.m */; };
+		13AFB77F189FF40A00159B5C /* SCSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AFB77E189FF40A00159B5C /* SCSAppDelegate.m */; };
+		13AFB782189FF40A00159B5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13AFB780189FF40A00159B5C /* Main.storyboard */; };
+		13AFB785189FF40A00159B5C /* SCSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AFB784189FF40A00159B5C /* SCSViewController.m */; };
+		13AFB787189FF40A00159B5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AFB786189FF40A00159B5C /* Images.xcassets */; };
+		13AFB78E189FF40A00159B5C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AFB78D189FF40A00159B5C /* XCTest.framework */; };
+		13AFB78F189FF40A00159B5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AFB76E189FF40A00159B5C /* Foundation.framework */; };
+		13AFB790189FF40A00159B5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AFB772189FF40A00159B5C /* UIKit.framework */; };
+		13AFB798189FF40A00159B5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13AFB796189FF40A00159B5C /* InfoPlist.strings */; };
+		13AFB79A189FF40A00159B5C /* MKPolygon_GPC_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AFB799189FF40A00159B5C /* MKPolygon_GPC_ExampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13AFB791189FF40A00159B5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13AFB763189FF40A00159B5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13AFB76A189FF40A00159B5C;
+			remoteInfo = "MKPolygon-GPC-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13AFB76B189FF40A00159B5C /* MKPolygon-GPC-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MKPolygon-GPC-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13AFB76E189FF40A00159B5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		13AFB770189FF40A00159B5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		13AFB772189FF40A00159B5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		13AFB776189FF40A00159B5C /* MKPolygon-GPC-Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKPolygon-GPC-Example-Info.plist"; sourceTree = "<group>"; };
+		13AFB778189FF40A00159B5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13AFB77A189FF40A00159B5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13AFB77C189FF40A00159B5C /* MKPolygon-GPC-Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKPolygon-GPC-Example-Prefix.pch"; sourceTree = "<group>"; };
+		13AFB77D189FF40A00159B5C /* SCSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCSAppDelegate.h; sourceTree = "<group>"; };
+		13AFB77E189FF40A00159B5C /* SCSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCSAppDelegate.m; sourceTree = "<group>"; };
+		13AFB781189FF40A00159B5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13AFB783189FF40A00159B5C /* SCSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCSViewController.h; sourceTree = "<group>"; };
+		13AFB784189FF40A00159B5C /* SCSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCSViewController.m; sourceTree = "<group>"; };
+		13AFB786189FF40A00159B5C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		13AFB78C189FF40A00159B5C /* MKPolygon-GPC-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MKPolygon-GPC-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13AFB78D189FF40A00159B5C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		13AFB795189FF40A00159B5C /* MKPolygon-GPC-ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKPolygon-GPC-ExampleTests-Info.plist"; sourceTree = "<group>"; };
+		13AFB797189FF40A00159B5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13AFB799189FF40A00159B5C /* MKPolygon_GPC_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKPolygon_GPC_ExampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13AFB768189FF40A00159B5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AFB771189FF40A00159B5C /* CoreGraphics.framework in Frameworks */,
+				13AFB773189FF40A00159B5C /* UIKit.framework in Frameworks */,
+				13AFB76F189FF40A00159B5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13AFB789189FF40A00159B5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AFB78E189FF40A00159B5C /* XCTest.framework in Frameworks */,
+				13AFB790189FF40A00159B5C /* UIKit.framework in Frameworks */,
+				13AFB78F189FF40A00159B5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13AFB762189FF40A00159B5C = {
+			isa = PBXGroup;
+			children = (
+				13AFB774189FF40A00159B5C /* MKPolygon-GPC-Example */,
+				13AFB793189FF40A00159B5C /* MKPolygon-GPC-ExampleTests */,
+				13AFB76D189FF40A00159B5C /* Frameworks */,
+				13AFB76C189FF40A00159B5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13AFB76C189FF40A00159B5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13AFB76B189FF40A00159B5C /* MKPolygon-GPC-Example.app */,
+				13AFB78C189FF40A00159B5C /* MKPolygon-GPC-ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13AFB76D189FF40A00159B5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13AFB76E189FF40A00159B5C /* Foundation.framework */,
+				13AFB770189FF40A00159B5C /* CoreGraphics.framework */,
+				13AFB772189FF40A00159B5C /* UIKit.framework */,
+				13AFB78D189FF40A00159B5C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13AFB774189FF40A00159B5C /* MKPolygon-GPC-Example */ = {
+			isa = PBXGroup;
+			children = (
+				13AFB77D189FF40A00159B5C /* SCSAppDelegate.h */,
+				13AFB77E189FF40A00159B5C /* SCSAppDelegate.m */,
+				13AFB780189FF40A00159B5C /* Main.storyboard */,
+				13AFB783189FF40A00159B5C /* SCSViewController.h */,
+				13AFB784189FF40A00159B5C /* SCSViewController.m */,
+				13AFB786189FF40A00159B5C /* Images.xcassets */,
+				13AFB775189FF40A00159B5C /* Supporting Files */,
+			);
+			path = "MKPolygon-GPC-Example";
+			sourceTree = "<group>";
+		};
+		13AFB775189FF40A00159B5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13AFB776189FF40A00159B5C /* MKPolygon-GPC-Example-Info.plist */,
+				13AFB777189FF40A00159B5C /* InfoPlist.strings */,
+				13AFB77A189FF40A00159B5C /* main.m */,
+				13AFB77C189FF40A00159B5C /* MKPolygon-GPC-Example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13AFB793189FF40A00159B5C /* MKPolygon-GPC-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				13AFB799189FF40A00159B5C /* MKPolygon_GPC_ExampleTests.m */,
+				13AFB794189FF40A00159B5C /* Supporting Files */,
+			);
+			path = "MKPolygon-GPC-ExampleTests";
+			sourceTree = "<group>";
+		};
+		13AFB794189FF40A00159B5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13AFB795189FF40A00159B5C /* MKPolygon-GPC-ExampleTests-Info.plist */,
+				13AFB796189FF40A00159B5C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13AFB76A189FF40A00159B5C /* MKPolygon-GPC-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13AFB79D189FF40A00159B5C /* Build configuration list for PBXNativeTarget "MKPolygon-GPC-Example" */;
+			buildPhases = (
+				13AFB767189FF40A00159B5C /* Sources */,
+				13AFB768189FF40A00159B5C /* Frameworks */,
+				13AFB769189FF40A00159B5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MKPolygon-GPC-Example";
+			productName = "MKPolygon-GPC-Example";
+			productReference = 13AFB76B189FF40A00159B5C /* MKPolygon-GPC-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13AFB78B189FF40A00159B5C /* MKPolygon-GPC-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13AFB7A0189FF40A00159B5C /* Build configuration list for PBXNativeTarget "MKPolygon-GPC-ExampleTests" */;
+			buildPhases = (
+				13AFB788189FF40A00159B5C /* Sources */,
+				13AFB789189FF40A00159B5C /* Frameworks */,
+				13AFB78A189FF40A00159B5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13AFB792189FF40A00159B5C /* PBXTargetDependency */,
+			);
+			name = "MKPolygon-GPC-ExampleTests";
+			productName = "MKPolygon-GPC-ExampleTests";
+			productReference = 13AFB78C189FF40A00159B5C /* MKPolygon-GPC-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13AFB763189FF40A00159B5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SCS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Justin Leger";
+				TargetAttributes = {
+					13AFB78B189FF40A00159B5C = {
+						TestTargetID = 13AFB76A189FF40A00159B5C;
+					};
+				};
+			};
+			buildConfigurationList = 13AFB766189FF40A00159B5C /* Build configuration list for PBXProject "MKPolygon-GPC-Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13AFB762189FF40A00159B5C;
+			productRefGroup = 13AFB76C189FF40A00159B5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13AFB76A189FF40A00159B5C /* MKPolygon-GPC-Example */,
+				13AFB78B189FF40A00159B5C /* MKPolygon-GPC-ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13AFB769189FF40A00159B5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AFB787189FF40A00159B5C /* Images.xcassets in Resources */,
+				13AFB779189FF40A00159B5C /* InfoPlist.strings in Resources */,
+				13AFB782189FF40A00159B5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13AFB78A189FF40A00159B5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AFB798189FF40A00159B5C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13AFB767189FF40A00159B5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AFB77F189FF40A00159B5C /* SCSAppDelegate.m in Sources */,
+				13AFB77B189FF40A00159B5C /* main.m in Sources */,
+				13AFB785189FF40A00159B5C /* SCSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13AFB788189FF40A00159B5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AFB79A189FF40A00159B5C /* MKPolygon_GPC_ExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13AFB792189FF40A00159B5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13AFB76A189FF40A00159B5C /* MKPolygon-GPC-Example */;
+			targetProxy = 13AFB791189FF40A00159B5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13AFB777189FF40A00159B5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13AFB778189FF40A00159B5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		13AFB780189FF40A00159B5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13AFB781189FF40A00159B5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13AFB796189FF40A00159B5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13AFB797189FF40A00159B5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13AFB79B189FF40A00159B5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13AFB79C189FF40A00159B5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13AFB79E189FF40A00159B5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKPolygon-GPC-Example/MKPolygon-GPC-Example-Prefix.pch";
+				INFOPLIST_FILE = "MKPolygon-GPC-Example/MKPolygon-GPC-Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		13AFB79F189FF40A00159B5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKPolygon-GPC-Example/MKPolygon-GPC-Example-Prefix.pch";
+				INFOPLIST_FILE = "MKPolygon-GPC-Example/MKPolygon-GPC-Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		13AFB7A1189FF40A00159B5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MKPolygon-GPC-Example.app/MKPolygon-GPC-Example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKPolygon-GPC-Example/MKPolygon-GPC-Example-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MKPolygon-GPC-ExampleTests/MKPolygon-GPC-ExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		13AFB7A2189FF40A00159B5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MKPolygon-GPC-Example.app/MKPolygon-GPC-Example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKPolygon-GPC-Example/MKPolygon-GPC-Example-Prefix.pch";
+				INFOPLIST_FILE = "MKPolygon-GPC-ExampleTests/MKPolygon-GPC-ExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13AFB766189FF40A00159B5C /* Build configuration list for PBXProject "MKPolygon-GPC-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13AFB79B189FF40A00159B5C /* Debug */,
+				13AFB79C189FF40A00159B5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13AFB79D189FF40A00159B5C /* Build configuration list for PBXNativeTarget "MKPolygon-GPC-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13AFB79E189FF40A00159B5C /* Debug */,
+				13AFB79F189FF40A00159B5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13AFB7A0189FF40A00159B5C /* Build configuration list for PBXNativeTarget "MKPolygon-GPC-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13AFB7A1189FF40A00159B5C /* Debug */,
+				13AFB7A2189FF40A00159B5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13AFB763189FF40A00159B5C /* Project object */;
+}

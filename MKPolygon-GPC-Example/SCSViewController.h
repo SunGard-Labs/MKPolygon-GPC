@@ -1,0 +1,13 @@
+//
+//  SCSViewController.h
+//  MKPolygon-GPC-Example
+//
+//  Created by Justin Leger on 2/3/14.
+//  Copyright (c) 2014 Justin Leger. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface SCSViewController : UIViewController
+
+@end
