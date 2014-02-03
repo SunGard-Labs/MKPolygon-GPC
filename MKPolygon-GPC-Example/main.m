@@ -2,7 +2,7 @@
 //  main.m
 //  MKPolygon-GPC-Example
 //
-//  Created by Justin Leger on 2/3/14.
+//  Created by Justin Leger on 1/31/14.
 //  Copyright (c) 2014 Justin Leger. All rights reserved.
 //
 

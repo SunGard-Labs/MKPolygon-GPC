@@ -1,8 +1,7 @@
 //
-// SCSViewController.h
-// MKPolygon-GPC-Example
+// MKPolygon+GPC.m
 //
-// Created by Justin Leger on 1/31/14.
+// Created by Justin Leger on 1/21/14.
 // Copyright (c) 2014 SunGard Consulting Services
 // 		  ___           ___           ___
 // 		 /  /\         /  /\         /  /\
@@ -34,14 +33,13 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 
-@interface SCSViewController : UIViewController <MKMapViewDelegate>
+@interface MKPolygon (GPC)
 
-@property (nonatomic, retain) IBOutlet MKMapView *myMapView;
-@property (nonatomic, retain) IBOutlet UIButton *resetButton;
-@property (nonatomic, retain) IBOutlet UIButton *unionButton;
-@property (nonatomic, retain) IBOutlet UIButton *subtractButton;
+- (MKPolygon*) polygonFromUnionWithPolygon:(MKPolygon*) otherPolygon;
+- (MKPolygon*) polygonFromIntersectionWithPolygon:(MKPolygon*) otherPolygon;
+- (MKPolygon*) polygonFromDifferenceWithPolygon:(MKPolygon*) otherPolygon;
+- (MKPolygon*) polygonFromExclusiveOrWithPolygon:(MKPolygon*) otherPolygon;
 
 @end

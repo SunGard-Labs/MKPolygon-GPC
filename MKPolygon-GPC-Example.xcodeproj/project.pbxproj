@@ -21,6 +21,8 @@
 		13AFB790189FF40A00159B5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AFB772189FF40A00159B5C /* UIKit.framework */; };
 		13AFB798189FF40A00159B5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13AFB796189FF40A00159B5C /* InfoPlist.strings */; };
 		13AFB79A189FF40A00159B5C /* MKPolygon_GPC_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AFB799189FF40A00159B5C /* MKPolygon_GPC_ExampleTests.m */; };
+		13AFB7AC189FF4EC00159B5C /* gpc.c in Sources */ = {isa = PBXBuildFile; fileRef = 13AFB7A6189FF4EC00159B5C /* gpc.c */; };
+		13AFB7AE189FF4EC00159B5C /* MKPolygon+GPC.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AFB7AA189FF4EC00159B5C /* MKPolygon+GPC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		13AFB795189FF40A00159B5C /* MKPolygon-GPC-ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKPolygon-GPC-ExampleTests-Info.plist"; sourceTree = "<group>"; };
 		13AFB797189FF40A00159B5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13AFB799189FF40A00159B5C /* MKPolygon_GPC_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKPolygon_GPC_ExampleTests.m; sourceTree = "<group>"; };
+		13AFB7A6189FF4EC00159B5C /* gpc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gpc.c; sourceTree = "<group>"; };
+		13AFB7A7189FF4EC00159B5C /* gpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gpc.h; sourceTree = "<group>"; };
+		13AFB7A9189FF4EC00159B5C /* MKPolygon+GPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKPolygon+GPC.h"; sourceTree = "<group>"; };
+		13AFB7AA189FF4EC00159B5C /* MKPolygon+GPC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKPolygon+GPC.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,7 @@
 		13AFB774189FF40A00159B5C /* MKPolygon-GPC-Example */ = {
 			isa = PBXGroup;
 			children = (
+				13AFB7A3189FF4EC00159B5C /* MKPolygon-GPC */,
 				13AFB77D189FF40A00159B5C /* SCSAppDelegate.h */,
 				13AFB77E189FF40A00159B5C /* SCSAppDelegate.m */,
 				13AFB780189FF40A00159B5C /* Main.storyboard */,
@@ -150,6 +157,25 @@
 				13AFB796189FF40A00159B5C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13AFB7A3189FF4EC00159B5C /* MKPolygon-GPC */ = {
+			isa = PBXGroup;
+			children = (
+				13AFB7A4189FF4EC00159B5C /* gpc232 */,
+				13AFB7A9189FF4EC00159B5C /* MKPolygon+GPC.h */,
+				13AFB7AA189FF4EC00159B5C /* MKPolygon+GPC.m */,
+			);
+			path = "MKPolygon-GPC";
+			sourceTree = "<group>";
+		};
+		13AFB7A4189FF4EC00159B5C /* gpc232 */ = {
+			isa = PBXGroup;
+			children = (
+				13AFB7A6189FF4EC00159B5C /* gpc.c */,
+				13AFB7A7189FF4EC00159B5C /* gpc.h */,
+			);
+			path = gpc232;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13AFB7AC189FF4EC00159B5C /* gpc.c in Sources */,
 				13AFB77F189FF40A00159B5C /* SCSAppDelegate.m in Sources */,
 				13AFB77B189FF40A00159B5C /* main.m in Sources */,
+				13AFB7AE189FF4EC00159B5C /* MKPolygon+GPC.m in Sources */,
 				13AFB785189FF40A00159B5C /* SCSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +489,7 @@
 				13AFB79F189FF40A00159B5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13AFB7A0189FF40A00159B5C /* Build configuration list for PBXNativeTarget "MKPolygon-GPC-ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +498,7 @@
 				13AFB7A2189FF40A00159B5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
