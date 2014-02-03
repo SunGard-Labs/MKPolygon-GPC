@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.author       = { "Justin Léger" => "justin.leger@sungard.com" }
   s.platform     = :ios
   s.source       = { :git => "https://github.com/SunGard-Labs/MKPolygon-GPC.git", :tag => "0.0.1" }
-  s.source_files  = 'MKPolygon-GPC-Example/MKPolygon-GPC/MKPolygon+GPC.*', 'MKPolygon-GPC-Example/MKPolygon-GPC/gpc232/gpc.*'
-
+  s.source_files = 'MKPolygon-GPC-Example/MKPolygon-GPC/MKPolygon+GPC.*', 'MKPolygon-GPC-Example/MKPolygon-GPC/gpc232/gpc.*'
+  s.frameworks   = 'MapKit'
+  
 end
