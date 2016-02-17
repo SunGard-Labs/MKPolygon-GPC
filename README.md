@@ -16,7 +16,7 @@ pod 'MKPolygon-GPC', '~> 0.0.1'
 2) Refresh your project pods ```pod install```
 
 ### Manually
-If you're not using cocoapods, just add `MKPolygon+GPC.h`, `MKPolygon+GPC.m`, `gpc.h` & `gpc.c` in your XCode project.
+If you're not using cocoapods, just add `MKPolygon+GPC.h`, `MKPolygon+GPC.m`, `gpc.h` & `gpc.c` in your Xcode project.
 
 ## Usage
 
