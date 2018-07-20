@@ -52,7 +52,8 @@
 + (MKPolygon *) polygonWithGPCPolygon:(gpc_polygon *) gpcPolygon interiorPolygons:(NSArray *)interiorPolygons
 {
 	NSAssert( gpcPolygon != NULL, @"attempt to create path from NULL gpcPolygon");
-	
+    if (gpcPolygon->contour == NULL) return nil;
+
 	NSUInteger vertCount = gpcPolygon->contour[0].num_vertices;
 	
 	if (vertCount == 0) return nil;
